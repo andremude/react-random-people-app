@@ -4,7 +4,7 @@ import Card from "./Card";
 const CardList = ({ persons }) => {
   return (
     <div className="card-list">
-      {persons.slice(0, 4).map((person) => {
+      {persons.map((person) => {
         return <Card key={person.login.uuid} person={person}></Card>;
       })}
     </div>

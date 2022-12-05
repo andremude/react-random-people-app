@@ -8,7 +8,7 @@ const Home = ({ query }) => {
 
   useEffect(() => {
     const getPersons = async () => {
-      const result = await axios.get("https://randomuser.me/api/?results=6");
+      const result = await axios.get("https://randomuser.me/api/?results=100");
       if (result.data.results && result.data.results.length > 0) {
         setPersons(result.data.results);
         setPersonsToList(result.data.results);
