@@ -1,9 +1,10 @@
-Random People App
+# Random People App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Setup 
 Clone Repository: `git@github.com:andremude/react-random-people-app.git`
+
 run `npm install`
 
 ## Dependencies
